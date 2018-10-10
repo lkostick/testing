@@ -15,9 +15,9 @@ function displayPosts() {
             + ' class="message-container"> <div class="shim"></div>';
 
         html += '<b>You</b>';
-       // html += '<span class="date">' + new Date(posts[i].date) + '</span>';
+        html += '<span class="date">' + new Date(posts[i].date) + '</span>';
        // html += "<blockquote>" + posts[i].message + "</blockquote";
-       // html += "</td></tr></table>";
+        html += "</td></tr></table>";
         containerEl.innerHTML += html; 
     }
 }
