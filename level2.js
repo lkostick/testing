@@ -10,9 +10,9 @@ function displayPosts() {
 
     var posts = DB.getPosts();
     for (var i=0; i<posts.length; i++) {
-        var html = '<table class="message"> <tr> <td valign=top> ';
-       //     + '<img src="https://xss-game.appspot.com/static/level2_icon.png"> </td> <td valign=top '
-       //     + ' class="message-container"> <div class="shim"></div>';
+        var html = '<table class="message"> <tr> <td valign=top> '
+            + '<img src="https://xss-game.appspot.com/static/level2_icon.png"> </td> <td valign=top '
+            + ' class="message-container"> <div class="shim"></div>';
 
        // html += '<b>You</b>';
        // html += '<span class="date">' + new Date(posts[i].date) + '</span>';
