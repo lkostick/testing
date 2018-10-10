@@ -11,7 +11,7 @@
 //    console.log("form focused");
 //});
 window.onload = function() {
-    var element = documentgetElementById("form1");
+    var element = document.getElementById("form1");
     element.addEventListener("focus", myScript(element));
 //    document.getElementById("form1").onfocus=function() {
 //        this.value = '';
