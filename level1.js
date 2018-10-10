@@ -7,8 +7,7 @@
 ////    });
 //});
 $("#query").on("focus", function() {
-    $(this).value='';
-    console.log("form focused");
+    $(this).val('');
 });
 //window.onload = function() {
 //    var element = document.getElementById("form1");
