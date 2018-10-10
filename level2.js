@@ -17,7 +17,7 @@ function displayPosts() {
         html += '<b>You</b>';
         html += '<span class="date">' + new Date(posts[i].date) + '</span>';
         html += "<blockquote>" + posts[i].message + "</blockquote";
-        html += "</td></tr></table>"
+        html += "</td></tr></table>";
         containerEl.innerHTML += html; 
     }
 }
