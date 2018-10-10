@@ -10,7 +10,8 @@
 //    //$(this).value='';
 //    console.log("form focused");
 //});
-
-document.getElementById("form1").onfocus=function() {
-    this.value = '';
-}
+window.onload = function() {
+    document.getElementById("form1").onfocus=function() {
+        this.value = '';
+    };
+};
