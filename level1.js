@@ -1,8 +1,7 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
+    $("#form1").focus(function() {
+        //$(this).value='';
+        console.log("form focused");
+    });
 });
-*/
 
-$("#form1").focus(function() {
-    //$(this).value='';
-    console.log("form focused");
-});
