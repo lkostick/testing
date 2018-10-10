@@ -1,6 +1,7 @@
 var defaultMessage = "Welcome!<br><br>This is your <i>personal</i>"
     + " stream. You can post anything you want here, especially "
-    + "<span style='color: #f00ba7'>madness</span>.";
+//    + "<span style='color: #f00ba7'>madness</span>.";
+    + "<span style=\"pink\">madness</span>.";
 
 var DB = new PostDB(defaultMessage);
 
